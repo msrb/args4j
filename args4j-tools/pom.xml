@@ -89,6 +89,7 @@
       <id>jdk-tools-jar</id>
       <activation>
         <os><family>!mac</family></os>
+        <jdk>[1.0,1.9)</jdk>
       </activation>
       <dependencies>
         <dependency>
